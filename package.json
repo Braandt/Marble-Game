@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "vercel deploy"
+    "deploy": "vercel deploy",
+    "prod": "vercel --prod"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "3.0",
